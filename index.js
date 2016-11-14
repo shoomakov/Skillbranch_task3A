@@ -6,10 +6,10 @@ const app = express(),
       router = express.Router(),
       port = 8081;
 
-const board   = require('./path/board'),
-      ram     = require('./path/ram'),
-      hdd     = require('./path/hdd'),
-      volumes = require('./path/volumes');
+const board   = require('./board'),
+      ram     = require('./ram'),
+      hdd     = require('./hdd'),
+      volumes = require('./volumes');
 
 const file = 'https://gist.githubusercontent.com/isuvorov/ce6b8d87983611482aac89f6d7bc0037/raw/pc.json';
 
